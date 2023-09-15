@@ -2,6 +2,12 @@
 A* search algorithm written in C++ programming language.
  - requires compiler support for C++11
 
+Quick start
+`mkdir build && cd build`
+`cmake ..`
+`make`
+`./main`
+
 #### Usage example
 ```cpp
 #include <iostream>

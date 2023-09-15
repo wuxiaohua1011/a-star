@@ -9,9 +9,10 @@ int main()
     generator.setDiagonalMovement(true);
 
     std::cout << "Generate path ... \n";
-    auto path = generator.findPath({0, 0}, {20, 20});
+    auto path = generator.findPath({0, 5}, {20, 20});
 
-    for(auto& coordinate : path) {
+    for (auto &coordinate : path)
+    {
         std::cout << coordinate.x << " " << coordinate.y << "\n";
     }
 }
